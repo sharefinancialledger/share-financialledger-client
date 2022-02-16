@@ -37,6 +37,36 @@ class CalendarState extends State<Calendar> {
           "id": 1,
           "title": "김밥천국"
         }
+      },
+      {
+        "id": 2,
+        "name": "떡볶이",
+        "date": "2022-01-29",
+        "amount": 3500,
+        "category": {
+          "id": 2,
+          "title": "식사",
+          "transactionType": "EXPENDITURE"
+        },
+        "subCategory": {
+          "id": 1,
+          "title": "김밥천국"
+        }
+      },
+      {
+        "id": 3,
+        "name": "떡볶이",
+        "date": "2022-01-17",
+        "amount": 3500,
+        "category": {
+          "id": 2,
+          "title": "식사",
+          "transactionType": "EXPENDITURE"
+        },
+        "subCategory": {
+          "id": 1,
+          "title": "김밥천국"
+        }
       }
     ]
   }""";
